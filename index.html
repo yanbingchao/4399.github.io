@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel ="stylesheet" href="styles.css"type="text/css">
+<title>Form Example</title>
+</head>
+
+<body>
+	<form action=/cgi-bin/post-information method=post>
+		<h1>Form Example</h1>
+		<p>Text Input</p>
+		<input type = text name="username" placeholder="username">
+		<br>
+		<br>
+		<p>Password Input</p>
+		<input type = text name="Password" placeholder="Password">
+		<br>
+		<br>
+		<p>Radio Buttons</p>
+		<input type = radio name="性别"value="Male"checked> Male
+		<br>
+		<input type = radio name="性别"value="Male"> Female
+		<br>
+		<br>
+		<p>Checkbox</p>
+		<input type = checkbox name="Checkbox" value="Coding">Coding
+		<br>
+		<input type = checkbox name="Checkbox" value="Sports">Sports
+		<br>
+		<input type = checkbox name="Checkbox" value="Music">Music
+		<br>
+		<input type = checkbox name="Checkbox" value="Travel">Travel
+		<br>
+		<input type = checkbox name="Checkbox" value="Reading">Reading
+		<br>
+		<input type = checkbox name="Checkbox" value="Gaming">Gaming
+		<br>
+		<br>
+		<p>Select Option</p>
+		<select name="country">
+			<option selected value="China">China</option>
+			<br>
+			<option  value="China">China</option>
+			<br>
+			<option  value="USA">USA</option>
+			<br>
+			<option  value="Canada">Canada</option>
+			<br>
+			<option  value="UK">UK</option>
+			<br>
+			<option value="Australia">Australia</option>
+			<br>
+			<option  value="Germary">Germary</option>
+			<br>
+			<option  value="Janpan">Janpan</option>
+			<br>
+			<option  value="India">India</option>
+			<br>
+			<option  value="Brazil">Brazil</option>
+
+		</select>
+		<br>
+			<br>
+			<p>Textarea</p>
+			<textarea name="comment" rows=4 cols=50 placeholder="comments">
+		</textarea><br><br>
+		<p>Submit and Reset Buttons</p>
+			<input type ="submit"value="Submit">
+			<input type ="reset"value="Reset">
+			
+		
+</body>
+</html>
